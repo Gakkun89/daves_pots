@@ -6,6 +6,7 @@ ruby '2.7.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem "rails"
 gem "pg", "~> 1.1" # Database
+gem "sqlite3"
 # Use Puma as the app server
 gem "puma", github: "puma/puma", branch: "master" # Server
 # Use SCSS for stylesheets
@@ -49,3 +50,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'solidus_auth_devise'
+gem 'solidus_paypal_commerce_platform'
